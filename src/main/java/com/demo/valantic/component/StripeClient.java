@@ -21,7 +21,7 @@ public class StripeClient {
 
 	@Autowired
 	StripeClient() {
-		Stripe.apiKey = "sk_test_51PpsMoRqEfBuoQzwGnIScRWGS3VCqJQr2ovccb3tQpFcxkh2XiLky8dC5O4AMdJnVmY6UL8jWwPxc0TsVzsrWGta00JxTKpUAh";
+		Stripe.apiKey = "<Stripe secret key value>";
 	}
 
 	public Customer createCustomer(String token, String email) throws Exception {
